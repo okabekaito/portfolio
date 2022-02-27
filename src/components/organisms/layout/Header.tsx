@@ -13,7 +13,7 @@ export const Header: VFC = memo(() => {
     const onClickDeliverables = useCallback(() => history.push("/deliverables"),[]);
     return (
         <>
-        <Flex as="nav" bg="gray.500"color="gray.50"align="center" justify="space-between"padding={{base:3,md:5}}>
+        <Flex as="nav" bg="#90CDF4"color="gray.50"align="center" justify="space-between"padding={{base:3,md:5}}>
             <Flex align="center" as="a" mr={8} _hover={{cursor:"pointer"}} onClick={onClickHome}>
                 <Heading as="h1" fontSize={{base:"md",md:"lg"}}>portfolio</Heading>
             </Flex>

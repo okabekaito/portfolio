@@ -3,7 +3,7 @@ export const DeliverablesList = [
         image:"images/IMG_0354.jpg",
         title:"駆け出しのツール",
         content:"学習した内容と時間を記録、スケジュールを管理するためのアプリケーションです。モチベーションを維持して勉強し、習慣化させることを目的として作りました。※現在対応中なのですが、Safariだとレイアウトが崩れますのでChromからお願いします。",
-        TechnologyName:"Ruby on Rails",
+        TechnologyName:"Ruby on Rails,heroku",
         code:"https://github.com/okabekaito/study_app"
     },
     {
