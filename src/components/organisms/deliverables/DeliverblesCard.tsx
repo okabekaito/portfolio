@@ -12,7 +12,7 @@ type Props = {
 export const DeliverablesCard: VFC<Props> = memo((props) => {
     const {image,title,content,TechnologyName,code,OnClickCard} = props;
     return (
-        <Box boxSize="440px" bg="white" borderRadius="10px" shadow="md" p={4} _hover={{cursor:"pointer",opacity:0.8}} onClick={OnClickCard}>
+        <Box boxSize="440px" bg="white" borderRadius="10px" shadow="md" _hover={{cursor:"pointer",opacity:0.8}} onClick={OnClickCard}>
         <Stack align="center">
             <Image h="200px" src={image} alt="成果物の画像" m="auto" />
             <Text fontSize="lg" fontWeight="bold" textAlign="center">{title}</Text>
