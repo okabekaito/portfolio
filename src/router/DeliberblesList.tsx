@@ -49,7 +49,14 @@ export const DeliverablesList = [
         code:"https://github.com/okabekaito/contact_App.git",
     },
     {
-        image:"images/IMG3.png",
+        image:"images/IMG1.png",
+        title:"ポートフォリオサイト",
+        content:"ReactとTypeScriptを使用し、制作物紹介サイトを作りました",
+        TechnologyName:"React TypeScript firebase",
+        code:"https://github.com/okabekaito/portfolio.git",
+    },
+    {
+        image:"images/IMG6.png",
         title:"駆け出しのツール",
         content:"勉強のためReactでtodoリストを作りました。",
         TechnologyName:"React",
