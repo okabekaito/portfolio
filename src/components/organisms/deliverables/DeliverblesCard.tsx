@@ -7,12 +7,13 @@ type Props = {
     content:string;
     TechnologyName:string;
     code:string;
+    site?:string;
     OnClickCard:() => void;
 }
 export const DeliverablesCard: VFC<Props> = memo((props) => {
-    const {image,title,content,TechnologyName,code,OnClickCard} = props;
+    const {image,title,content,TechnologyName,code,OnClickCard,site} = props;
     return (
-        <Box boxSize="440px" bg="white" borderRadius="10px" shadow="md" _hover={{cursor:"pointer",opacity:0.8}} onClick={OnClickCard}>
+        <Box boxSize="455px" bg="white" borderRadius="10px" shadow="md" _hover={{cursor:"pointer",opacity:0.8}} onClick={OnClickCard}>
         <Stack align="center">
             <Image h="200px" src={image} alt="成果物の画像" m="auto" />
             <Text fontSize="lg" fontWeight="bold" textAlign="center">{title}</Text>
@@ -25,6 +26,9 @@ export const DeliverablesCard: VFC<Props> = memo((props) => {
             <Button colorScheme='cyan' variant='outline'>
                 <a href={code}>コード</a>
             </Button>
+            {site?<Button colorScheme='cyan' variant='outline'>
+                <a href={site}>URLへ </a>
+            </Button>:null}
         </Stack>
     </Box>
     )

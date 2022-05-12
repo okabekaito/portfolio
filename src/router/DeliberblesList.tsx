@@ -4,7 +4,8 @@ export const DeliverablesList = [
         title:"駆け出しのツール",
         content:"学習した内容と時間を記録、スケジュールを管理するためのアプリケーションです。モチベーションを維持して勉強し、習慣化させることを目的として作りました。※現在対応中なのですが、Safariだとレイアウトが崩れますのでChromからお願いします。",
         TechnologyName:"Ruby on Rails,heroku",
-        code:"https://github.com/okabekaito/study_app"
+        code:"https://github.com/okabekaito/study_app",
+        site:"https://studymanegememtapp.herokuapp.com/",
     },
     {
         image:"images/IMG4.png",
@@ -25,21 +26,24 @@ export const DeliverablesList = [
         title:"Motivational-Speech-Wallpaper",
         content:"DOMを使って作成したwebページです。javascriptで作りました",
         TechnologyName:"JavaScript,github.io",
-        code:"https://github.com/okabekaito/Motivational-Speech-Wallpaper.git"
+        code:"https://github.com/okabekaito/Motivational-Speech-Wallpaper.git",
+        site:"https://okabekaito.github.io/Motivational-Speech-Wallpaper/"
     },
     {
         image:"images/IMG_0339.jpg",
         title:"Emotion Onomatopoeia Dictionary",
         content:"JavaScriptを使って作成しました。感情のカテゴリを表示するアプリケーションを作成しました。カテゴリをクリックすると、その感情の擬音カードのセクションにジャンプします。",
         TechnologyName:"JavaScript,github.io",
-        code:"https://github.com/okabekaito/Emotion-Onomatopoeia-Dictionary.git"
+        code:"https://github.com/okabekaito/Emotion-Onomatopoeia-Dictionary.git",
+        site:"https://okabekaito.github.io/Emotion-Onomatopoeia-Dictionary/"
     },
     {
         image:"images/IMG2.png",
         title:"簡単ノートアプリ",
         content:"自分の知っていること、学んだことをノートにして投稿できるWEBアプリケーションを作成しました。",
         TechnologyName:"Ruby on Rails,heroku",
-        code:"https://github.com/okabekaito/note_app.git"
+        code:"https://github.com/okabekaito/note_app.git",
+        site:"https://peaceful-lowlands-98059.herokuapp.com/"
     },
     {
         image:"images/IMG1.png",
@@ -47,6 +51,7 @@ export const DeliverablesList = [
         content:"Twitterのように文字や画像を投稿ができるアプリケーション",
         TechnologyName:"Ruby on Rails,heroku",
         code:"https://github.com/okabekaito/contact_App.git",
+        site:"https://peaceful-lowlands-98059.herokuapp.com/"
     },
     {
         image:"images/IMG6.png",
